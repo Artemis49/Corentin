@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C745FDA22360478E0066A472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C745FDA12360478E0066A472 /* LaunchScreen.storyboard */; };
 		C7E70177235F31FE00D653DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E70176235F31FE00D653DE /* AppDelegate.swift */; };
 		C7E7017D235F31FF00D653DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E7017C235F31FF00D653DE /* Assets.xcassets */; };
 		C7E70180235F31FF00D653DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E7017F235F31FF00D653DE /* Preview Assets.xcassets */; };
-		C7E70183235F31FF00D653DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E70181235F31FF00D653DE /* LaunchScreen.storyboard */; };
 		C7E7018E235F31FF00D653DE /* cv_corentinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E7018D235F31FF00D653DE /* cv_corentinTests.swift */; };
 		C7E70199235F31FF00D653DE /* cv_corentinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E70198235F31FF00D653DE /* cv_corentinUITests.swift */; };
 		C7E701A7235F339C00D653DE /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E701A6235F339C00D653DE /* CustomTabBar.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C745FDA12360478E0066A472 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E70173235F31FE00D653DE /* cv-corentin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cv-corentin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E70176235F31FE00D653DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7E7017C235F31FF00D653DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7E7017F235F31FF00D653DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C7E70182235F31FF00D653DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7E70184235F31FF00D653DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7E70189235F31FF00D653DE /* cv-corentinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cv-corentinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E7018D235F31FF00D653DE /* cv_corentinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cv_corentinTests.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 				C7E70176235F31FE00D653DE /* AppDelegate.swift */,
 				C7E701A6235F339C00D653DE /* CustomTabBar.swift */,
 				C7E7017C235F31FF00D653DE /* Assets.xcassets */,
-				C7E70181235F31FF00D653DE /* LaunchScreen.storyboard */,
+				C745FDA12360478E0066A472 /* LaunchScreen.storyboard */,
 				C7E70184235F31FF00D653DE /* Info.plist */,
 				C7E7017E235F31FF00D653DE /* Preview Content */,
 			);
@@ -237,7 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E70183235F31FF00D653DE /* LaunchScreen.storyboard in Resources */,
+				C745FDA22360478E0066A472 /* LaunchScreen.storyboard in Resources */,
 				C7E70180235F31FF00D653DE /* Preview Assets.xcassets in Resources */,
 				C7E7017D235F31FF00D653DE /* Assets.xcassets in Resources */,
 			);
@@ -299,17 +299,6 @@
 			targetProxy = C7E70195235F31FF00D653DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C7E70181235F31FF00D653DE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7E70182235F31FF00D653DE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C7E7019B235F31FF00D653DE /* Debug */ = {

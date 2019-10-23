@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asi-W5-e10" userLabel="First Button">
+                                <rect key="frame" x="134" y="433" width="146" height="30"/>
+                                <state key="normal" title="Signin with Facebook"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6h-A3-QvW" userLabel="Second Button">
+                                <rect key="frame" x="143" y="473" width="128" height="30"/>
+                                <state key="normal" title="Signin with Google"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mG-ys-QtO" userLabel="Second Button">
+                                <rect key="frame" x="149" y="513" width="116" height="30"/>
+                                <state key="normal" title="Signin with Email"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmf-tl-nru">
+                                <rect key="frame" x="105" y="392" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7a6-WQ-PRC">
+                                <rect key="frame" x="137" y="208" width="140" height="134"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Asi-W5-e10" firstAttribute="top" secondItem="cmf-tl-nru" secondAttribute="bottom" constant="20" id="1x9-z4-872"/>
+                            <constraint firstItem="1mG-ys-QtO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6P2-9W-gsG"/>
+                            <constraint firstItem="Asi-W5-e10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AfD-pV-Aeo"/>
+                            <constraint firstItem="A6h-A3-QvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E9d-W3-DPv"/>
+                            <constraint firstItem="cmf-tl-nru" firstAttribute="top" secondItem="7a6-WQ-PRC" secondAttribute="bottom" constant="50" id="huT-tB-XK8"/>
+                            <constraint firstItem="A6h-A3-QvW" firstAttribute="top" secondItem="Asi-W5-e10" secondAttribute="bottom" constant="10" id="iMe-Qy-mcu"/>
+                            <constraint firstItem="1mG-ys-QtO" firstAttribute="top" secondItem="A6h-A3-QvW" secondAttribute="bottom" constant="10" id="nhb-qE-2wb"/>
+                            <constraint firstItem="7a6-WQ-PRC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pDW-5K-tDz"/>
+                            <constraint firstItem="Asi-W5-e10" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qoL-Rm-pS1"/>
+                            <constraint firstItem="cmf-tl-nru" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ukJ-aa-QDJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+</document>
