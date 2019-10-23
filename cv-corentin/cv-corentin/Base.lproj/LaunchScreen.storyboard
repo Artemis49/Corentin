@@ -113,27 +113,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonjour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kho-2U-H0g">
-                                <rect key="frame" x="133" y="286" width="148" height="54"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenue sur le CV de Corentin CHATEAU" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xqs-xf-oTg">
-                                <rect key="frame" x="43" y="372" width="328" height="185"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="safeArea" id="tgY-nk-agF"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aXr-Kc-4uU">
+                                <rect key="frame" x="43" y="44" width="328" height="138"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bonjour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kho-2U-H0g">
+                                        <rect key="frame" x="90" y="30" width="148" height="54"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Kho-2U-H0g" firstAttribute="centerX" secondItem="aXr-Kc-4uU" secondAttribute="centerX" id="bqD-FE-sou"/>
+                                    <constraint firstItem="Kho-2U-H0g" firstAttribute="top" secondItem="aXr-Kc-4uU" secondAttribute="top" constant="30" id="onI-pz-v2f"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zbl-HG-ZPn">
+                                <rect key="frame" x="43" y="44" width="328" height="788"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bienvenue sur le CV de Corentin CHATEAU" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LtD-iW-WHL">
+                                        <rect key="frame" x="43" y="227" width="328" height="185"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <viewLayoutGuide key="safeArea" id="BTo-XP-QSg"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Kho-2U-H0g" firstAttribute="centerX" secondItem="jAx-Vb-nV6" secondAttribute="centerX" id="1Hp-Js-Qvk"/>
-                            <constraint firstItem="Xqs-xf-oTg" firstAttribute="centerY" secondItem="jAx-Vb-nV6" secondAttribute="centerY" constant="16" id="WhD-Mt-u9W"/>
-                            <constraint firstItem="Kho-2U-H0g" firstAttribute="centerX" secondItem="jAx-Vb-nV6" secondAttribute="centerX" id="ZMj-sh-k1s"/>
-                            <constraint firstItem="Kho-2U-H0g" firstAttribute="centerY" secondItem="jAx-Vb-nV6" secondAttribute="centerY" constant="-135" id="aXV-PU-WoP"/>
+                            <constraint firstItem="95W-wG-jAF" firstAttribute="bottom" secondItem="aXr-Kc-4uU" secondAttribute="bottom" constant="631" id="4uY-V4-Mly"/>
+                            <constraint firstItem="Zbl-HG-ZPn" firstAttribute="leading" secondItem="aXr-Kc-4uU" secondAttribute="leading" id="6Xl-yk-kTS"/>
+                            <constraint firstItem="Zbl-HG-ZPn" firstAttribute="top" secondItem="aXr-Kc-4uU" secondAttribute="top" id="K6k-Hq-ALP"/>
+                            <constraint firstItem="BTo-XP-QSg" firstAttribute="width" secondItem="aXr-Kc-4uU" secondAttribute="width" id="Qwe-G9-Ded"/>
+                            <constraint firstItem="aXr-Kc-4uU" firstAttribute="top" secondItem="95W-wG-jAF" secondAttribute="top" id="YLg-hb-746"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Zbl-HG-ZPn" secondAttribute="bottom" constant="-19" id="gQl-Ef-LcW"/>
+                            <constraint firstItem="Zbl-HG-ZPn" firstAttribute="trailing" secondItem="aXr-Kc-4uU" secondAttribute="trailing" id="pHr-yN-AR5"/>
+                            <constraint firstItem="LtD-iW-WHL" firstAttribute="centerX" secondItem="Kho-2U-H0g" secondAttribute="centerX" id="uT9-oK-rp3"/>
+                            <constraint firstItem="Zbl-HG-ZPn" firstAttribute="centerX" secondItem="jAx-Vb-nV6" secondAttribute="centerX" id="wXw-U1-UEb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="95W-wG-jAF"/>
                     </view>
