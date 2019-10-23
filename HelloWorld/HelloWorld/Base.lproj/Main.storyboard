@@ -15,26 +15,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asi-W5-e10" userLabel="First Button">
-                                <rect key="frame" x="134" y="433" width="146" height="30"/>
-                                <state key="normal" title="Signin with Facebook"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="e2J-0m-gGp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asi-W5-e10" userLabel="First Button">
+                                <rect key="frame" x="64.5" y="413.5" width="285" height="69"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Signin with Facebook" backgroundImage="FB">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6h-A3-QvW" userLabel="Second Button">
-                                <rect key="frame" x="143" y="473" width="128" height="30"/>
-                                <state key="normal" title="Signin with Google"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6h-A3-QvW" userLabel="Second Button">
+                                <rect key="frame" x="64.5" y="492.5" width="285" height="69"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Signin with Google" backgroundImage="Google">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mG-ys-QtO" userLabel="Second Button">
-                                <rect key="frame" x="149" y="513" width="116" height="30"/>
-                                <state key="normal" title="Signin with Email"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mG-ys-QtO" userLabel="Second Button">
+                                <rect key="frame" x="64.5" y="571.5" width="285" height="69"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Signin with Email" backgroundImage="Email">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmf-tl-nru">
-                                <rect key="frame" x="105" y="392" width="204" height="21"/>
+                                <rect key="frame" x="105" y="372.5" width="204" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7a6-WQ-PRC">
-                                <rect key="frame" x="137" y="208" width="140" height="134"/>
+                                <rect key="frame" x="137" y="188.5" width="140" height="134"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="56"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,9 +55,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Asi-W5-e10" firstAttribute="top" secondItem="cmf-tl-nru" secondAttribute="bottom" constant="20" id="1x9-z4-872"/>
+                            <constraint firstItem="e2J-0m-gGp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5JI-iy-5nf"/>
                             <constraint firstItem="1mG-ys-QtO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6P2-9W-gsG"/>
                             <constraint firstItem="Asi-W5-e10" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AfD-pV-Aeo"/>
                             <constraint firstItem="A6h-A3-QvW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E9d-W3-DPv"/>
+                            <constraint firstAttribute="bottom" secondItem="e2J-0m-gGp" secondAttribute="bottom" id="MeY-qL-J8A"/>
+                            <constraint firstAttribute="trailing" secondItem="e2J-0m-gGp" secondAttribute="trailing" id="bNF-Td-7xS"/>
+                            <constraint firstItem="e2J-0m-gGp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eQI-ei-kfT"/>
                             <constraint firstItem="cmf-tl-nru" firstAttribute="top" secondItem="7a6-WQ-PRC" secondAttribute="bottom" constant="50" id="huT-tB-XK8"/>
                             <constraint firstItem="A6h-A3-QvW" firstAttribute="top" secondItem="Asi-W5-e10" secondAttribute="bottom" constant="10" id="iMe-Qy-mcu"/>
                             <constraint firstItem="1mG-ys-QtO" firstAttribute="top" secondItem="A6h-A3-QvW" secondAttribute="bottom" constant="10" id="nhb-qE-2wb"/>
@@ -61,4 +77,10 @@
             <point key="canvasLocation" x="139" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="414" height="896"/>
+        <image name="Email" width="285" height="69"/>
+        <image name="FB" width="285" height="69"/>
+        <image name="Google" width="285" height="69"/>
+    </resources>
 </document>
